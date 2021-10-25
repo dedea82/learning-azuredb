@@ -6,6 +6,12 @@ This repository contains some tutorials that can be used with as a starting poin
 * NoSQL Databases
 * Azure Cosmos DB
 
+## Terminal Pills
+    npm i mssql     // https://github.com/tediousjs/node-mssql
+    curl -v http://localhost:7071/api/persons/1
+    curl -X PUT http://localhost:7071/api/persons/ -H "Content-Type: application/json" -d '{\"firstName\":\"John\", \"lastName\":\"Doe\", \"dateOfBirth\":\"1979-12-31\", \"email\":\"john.doe@gmail.com\"}'
+
+
 ## Resources
 
 * [Azure SQL Database documentation](https://docs.microsoft.com/en-us/azure/azure-sql/database/) - Microsoft Docs
