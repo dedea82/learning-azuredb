@@ -1,0 +1,16 @@
+// required REST Client for Visual Studio Code [https://github.com/Huachao/vscode-restclient]
+
+###
+GET http://localhost:7071/api/persons-json/4
+
+### modify 
+POST http://localhost:7071/api/persons-json/4
+Content-Type: application/json
+
+{"firstName": "John", "lastName": "Doe", "gender": "male"}
+
+### full
+POST http://localhost:7071/api/persons-json/4
+Content-Type: application/json
+
+{"gender": "male", "addresses": [{ "city": "New York" }], "otherInt": 82}

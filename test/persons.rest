@@ -1,0 +1,20 @@
+// required REST Client for Visual Studio Code [https://github.com/Huachao/vscode-restclient]
+
+###
+GET http://localhost:7071/api/persons
+
+###
+GET http://localhost:7071/api/persons/5
+
+###
+PUT http://localhost:7071/api/persons
+Content-Type: application/json
+
+{"firstName":"Bill", "lastName":"Gates", "dateOfBirth":"1955-10-28", "email":"bill.gates@microsoft.com"}
+
+###
+POST http://localhost:7071/api/persons/5
+Content-Type: application/json
+
+{"firstName":"Bill", "lastName":"Gates", "dateOfBirth":"1955-10-28", "email":"bill.gates@microsoft.com"}
+
