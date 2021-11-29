@@ -5,8 +5,10 @@ This repository contains some tutorials that can be used with as a starting poin
 * Azure SQL (cloud databases)
 * Azure Functions (Javascript) with Azure SQL
 * JSON column data type
-* NoSQL Databases
-* Azure Cosmos DB
+* Blob (varbinary) column data type
+
+* NoSQL Databases [TODO]
+* Azure Cosmos DB [TODO]
 
 ## Terminal Pills
     npm i mssql     // https://github.com/tediousjs/node-mssql

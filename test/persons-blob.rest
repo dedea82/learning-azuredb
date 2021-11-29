@@ -1,0 +1,15 @@
+// required REST Client for Visual Studio Code [https://github.com/Huachao/vscode-restclient]
+
+###
+POST http://localhost:7071/api/persons-blob/1
+Content-Disposition: form-data; filename="test.txt"
+
+< ./test.txt
+
+
+###
+GET http://localhost:7071/api/persons-blob/1
+
+
+###
+GET http://localhost:7071/api/persons-blob/1/239f9b8e-0b44-4a1f-bd36-40cf05895905
