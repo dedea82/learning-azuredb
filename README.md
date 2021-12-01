@@ -7,7 +7,7 @@ This repository contains some tutorials that can be used with as a starting poin
 * JSON column data type
 * Blob (varbinary) column data type
 * Additional logins and users in Azure SQL
-
+* Pagination on SQL
 * NoSQL Databases [TODO]
 * Azure Cosmos DB [TODO]
 
